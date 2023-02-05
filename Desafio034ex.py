@@ -1,0 +1,8 @@
+salt = float(input('What is the employees salary? '))
+new = salt + (salt * 15 / 100) if salt <= 1250 else salt + (salt * 10 / 100)
+print('Whoever used to earn BRL {:.2f} now earns BRL {:.2f}'.format(salt, new))
+
+
+'''sal = float(input('Qual eh o salario do funcionario? '))
+novo = sal + (sal * 15 / 100) if sal <= 1250 else sal + (sal * 10 / 100)
+print('Quem ganhava R$ {:.2f} passa a ganhar R$ {:.2f} agora'.format(sal, novo))'''
